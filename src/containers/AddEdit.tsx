@@ -72,7 +72,7 @@ export const AddEdit = (): JSX.Element => {
                     name="name"
                     placeholder="Enter Name..."
                     value={name}
-                    onChange={(event) => {}}
+                    onChange={handleChange}
                 />
                 <label htmlFor="email">Email</label>
                 <input 

@@ -3,19 +3,19 @@
     {
       "name": "Diana Prince",
       "email": "dprince@gmail.com",
-      "contact": "44473677367635",
+      "phone": "2125551212",
       "id": 1
     },
     {
       "name": "Sydney Bristow",
       "email": "sbristow@gmail.com",
-      "contact": "9065365365",
+      "phone": "9065365365",
       "id": 5
     },
     {
       "name": "Thaddeus Ross",
       "email": "tross@usaf.com",
-      "contact": "1234567",
+      "phone": "4443456767",
       "id": 6
     }
   ]

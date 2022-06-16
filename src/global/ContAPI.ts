@@ -17,10 +17,10 @@ export const ContAPI = createApi({
             providesTags: ["Contact"],
         }),
         add: builder.mutation<IContact, IContact>({
-            query: (contact) => ({
+            query: (payload) => ({
                 url: "/",
                 method: "POST",
-                body: contact
+                body: payload
             }),
             invalidatesTags: ["Contact"],
         }),

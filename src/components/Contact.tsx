@@ -8,7 +8,6 @@ export const Contact = (): JSX.Element => {
     const { error, isLoading, data } = 
     ContAPI.useFetchAllQuery();
     const [deleteContact] = ContAPI.useDeleteMutation();
-    console.log("error", error);
 
     React.useEffect(() => {
         if (error) toast.error("Something went wrong!");
@@ -57,7 +56,7 @@ export const Contact = (): JSX.Element => {
                                 </Link>
                                 <button 
                                     className="btn btn-delete"
-                                    onClick={() => handleDelete(contact.id)}
+                                    onClick={() => handleDelete(contact.id!)}
                                     >Delete
                                 </button>
                                 <Link to={`/info/${contact.id}`}>
